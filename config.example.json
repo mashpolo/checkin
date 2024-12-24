@@ -1,0 +1,9 @@
+{
+    "cookie": "**********************",
+    "telegram": {
+        "botToken": "******************",
+        "chatId": "**********"
+    },
+    "maxRetries": 3,
+    "retryDelay": 5000
+}

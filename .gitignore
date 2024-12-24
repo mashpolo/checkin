@@ -1,0 +1,15 @@
+# 配置文件
+config.json
+smzdm_checkin.log
+
+# 依赖目录
+node_modules/
+
+# PM2 日志
+logs/
+*.log
+.pm2/
+
+# 系统文件
+.DS_Store
+.env
