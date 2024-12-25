@@ -1,18 +1,16 @@
-# 自动签到脚本
+# 百度贴吧自动签到脚本
 
-自动完成各种网站的签到任务，支持失败重试和 Telegram 通知。
+自动完成百度贴吧的每日签到任务，支持失败重试和 Telegram 通知。
 
-## 支持的网站
+## 功能特点
 
-### 百度贴吧
-
-自动完成百度贴吧的每日签到，支持以下功能：
 - 自动签到所有关注的贴吧
 - 通过 Telegram 发送签到结果通知
 - 签到失败自动重试（最多 3 次）
 - 使用 PM2 管理定时任务（每天早上 8 点运行）
 
-#### 配置说明
+## 配置说明
+
 1. 获取百度 Cookie:
    - 使用浏览器访问 https://tieba.baidu.com/
    - 登录您的百度账号
@@ -31,21 +29,14 @@
 }
 ```
 
-#### 手动运行
-```bash
-node baidu_checkin.js
-```
-
-## 通用配置
-
-### Telegram 通知配置
+### Telegram 通知配置（可选）
 
 1. 获取配置信息:
    - 在 Telegram 中找到 @BotFather 创建机器人，获取 botToken
    - 将机器人添加到群组或与机器人私聊
    - 访问 `https://api.telegram.org/bot<YourBOTToken>/getUpdates` 获取 chatId
 
-2. 在 `config.json` 中配置：
+2. 在 `config.json` 中添加：
 ```json
 {
     "telegram": {
@@ -59,7 +50,7 @@ node baidu_checkin.js
 
 1. 安装依赖：
 ```bash
-npm install axios pm2
+npm install
 ```
 
 2. 配置文件：

@@ -1,14 +1,13 @@
 {
-  "name": "smzdm-checkin",
+  "name": "baidu-tieba-checkin",
   "version": "1.0.0",
-  "description": "SMZDM automatic check-in script",
-  "main": "smzdm_checkin.js",
+  "description": "Baidu Tieba automatic check-in script",
+  "main": "baidu_checkin.js",
   "scripts": {
-    "start": "node smzdm_checkin.js"
+    "start": "node baidu_checkin.js"
   },
   "dependencies": {
-    "axios": "^1.6.2",
-    "node-cron": "^3.0.3",
-    "node-telegram-bot-api": "^0.64.0"
+    "axios": "^1.7.9",
+    "pm2": "^5.3.1"
   }
 }

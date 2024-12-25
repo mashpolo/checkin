@@ -1,6 +1,5 @@
 # 配置文件
 config.json
-smzdm_checkin.log
 
 # 依赖目录
 node_modules/
