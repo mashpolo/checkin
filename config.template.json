@@ -1,0 +1,9 @@
+{
+    "baidu": {
+        "cookie": "YOUR_BAIDU_COOKIE"
+    },
+    "telegram": {
+        "botToken": "YOUR_BOT_TOKEN",
+        "chatId": "YOUR_CHAT_ID"
+    }
+}
